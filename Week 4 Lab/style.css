@@ -1,0 +1,67 @@
+#top h1{
+  text-align: center;
+  font-size: 45px;
+  color: #0D1F2D;
+}
+
+#top p{
+  text-align: center;
+  color: #0D1F2D;
+}
+
+#top img{
+  width: 60vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 5px pink;
+  border-style: double;
+  padding: 10px;
+}
+
+#web{
+  text-align: center;
+  font-size: 17px;
+  color: #0D1F2D;
+}
+
+#weblinks{
+  text-align: center;
+  color: green;
+}
+
+#goals{
+  color: #0D1F2D;
+}
+
+#abtme{
+  color: #0D1F2D;
+}
+
+a:link{
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:hover{
+  color: purple;
+  background-color: transparent;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+a:visited{
+  color: purple;
+  background-color: purple;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+a:active{
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+  font-size: 20px;
+}

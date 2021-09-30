@@ -1,0 +1,101 @@
+body {
+  font-family: arial;
+  font-size: 2vw;
+  font-weight: 100;  /* 100=Skinny 900=bold */
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  font-size: 20px;
+  font-family: "Yaldevi";
+}
+
+h1 {
+  background-color: rgb(200, 200, 0);
+  margin-left: 25px;
+  font-family: "Ephesis";
+}
+
+#title {
+  border: solid red 1px
+}
+
+#second {
+  font-weight: bold;
+}
+
+.grey {
+  color: rgb(100, 100, 100);
+}
+
+.background {
+  background-color: rgb(225, 225, 225);
+}
+
+p.background {
+  color: red;
+}
+
+span {
+  color: blue;
+}
+
+#sit {
+  font-family: cursive;
+}
+
+#solid {
+  border: solid rgb(255, 255, 0) 2px;
+}
+
+#dotted {
+  border: dotted rgb(255, 255, 0) 2px;
+}
+
+#dashed {
+  border: dashed rgb(255, 255, 0) 2px;
+}
+
+#double {
+  border: double rgb(255, 255, 0) 2px;
+}
+
+#ridge {
+  border: ridge rgb(255, 255, 0) 2px;
+}
+
+#groove {
+  border: groove rgb(255, 255, 0) 2px;
+}
+
+#two {
+  border: solid black 1px;
+  background-color: blue;
+  /* inside of the box */
+  /* margin: 50px */
+  /* outside of the box */
+  /* padding: 50px; */
+  padding: top right bottom left padding: 40px, 0px, 40px, 10px
+    /* margin-left: 10vw; */
+}
+
+#hero{
+  width: 100vw;
+  margin: 0px;
+  padding: 0px;
+  z-index: -1;
+}
+
+#header{
+  height: 50vh;
+  overflow: hidden;
+  position: relative;
+}
+
+#header h1{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  z-index: 1;
+}

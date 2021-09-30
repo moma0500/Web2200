@@ -1,0 +1,39 @@
+/* this is a comment */
+
+h1{
+  font-size: 50px
+}
+
+#top h1{
+  color: rgb(255,200,255);
+  border: solid .5px white;
+  border-radius: 10px;
+
+}
+
+body{
+  font-family: helvetica;
+  background-color: black;
+  color: White;
+}
+
+#img{
+  background-color: rgb(130,100,10);
+  width: 25vw;
+  margin: 10px
+}
+
+form{
+  margin-left: 20px;
+  font-size: 10vw;
+}
+
+ul{
+  color: red;
+  font-family: cursive;
+  font-weight: 100;
+}
+
+img{
+  width: 20vw
+}
