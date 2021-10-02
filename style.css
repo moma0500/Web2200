@@ -1,4 +1,4 @@
-#top h1{
+#top h1 {
   text-align: center;
   font-size: 15vw;
   color: #0D1F2D;
@@ -8,17 +8,21 @@
   margin-top: 4px;
 }
 
-body{
+#solid {
+  border: solid #FAE1DF 4px;
+}
+
+body {
   background-color: ivory;
 }
 
-#top p{
+#top p {
   text-align: center;
   color: #0D1F2D;
   font-family: "Big Shoulders Text";
 }
 
-#top img{
+#top img {
   width: 40vw;
   display: block;
   margin-left: auto;
@@ -26,28 +30,25 @@ body{
   border: 10px #FAE1DF;
   border-style: double;
   padding: 10px;
-
 }
 
-#under_pic{
+#under_pic {
   text-align: center;
   font-size: 17px;
   color: #0D1F2D;
   font-family: "Big Shoulders Display";
   padding-top: -5px;
   padding-bottom: -5px;
-
 }
 
-#weblinks{
+#weblinks {
   text-align: center;
   color: #FAE1DF;
   font-family: "Big Shoulders Text";
   padding: -1px;
-
 }
 
-#goals{
+#goals {
   color: #0D1F2D;
   font-family: "Big Shoulders Text";
   text-align: center;
@@ -59,7 +60,7 @@ body{
   border: solid #FAE1DF 10px
 }
 
-#abtme{
+#abtme {
   color: #0D1F2D;
   font-family: "Big Shoulders Text";
   text-align: center;
@@ -71,36 +72,103 @@ body{
   border: solid #FAE1DF 10px
 }
 
-#pattern_lib{
+#pattern_lib {
   color: #0D1F2D;
   font-family: "Big Shoulders Text";
   text-align: center;
   font-size: 3vw;
 }
 
+#header1 {
+  font-size: 96px;
+  margin: auto;
+  font-family: "Big Shoulders Text";
+  text-align: center;
+}
 
-a:link{
+#header2 {
+  font-size: 64px;
+  margin: auto;
+  font-family: "Big Shoulders Text";
+  text-align: center;
+}
+
+#header3 {
+  font-size: 48px;
+  margin: auto;
+  font-family: "Big Shoulders Text";
+  text-align: center;
+}
+
+#header4 {
+  font-size: 36px;
+  margin: auto;
+  font-family: "Big Shoulders Text";
+  text-align: center;
+}
+
+#header5 {
+  font-size: 24px;
+  margin: auto;
+  font-family: "Big Shoulders Text";
+  text-align: center;
+}
+
+#header6 {
+  font-size: 18px;
+  margin: auto;
+  font-family: "Big Shoulders Text";
+  text-align: center;
+}
+
+#hr3 {
+  border: solid #FAE1DF 4px;
+  margin-top: 30px;
+}
+
+#hr2 {
+  border: solid #FAE1DF 2px;
+  margin-top: 30px;
+}
+
+#hr1 {
+  border-color: #FAE1DF;
+  border-style: double;
+  margin-top: 30px;
+}
+
+#palette {
+  width: 50vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border: 20px #FAE1DF;
+  border-style: double;
+}
+
+a:link {
   color: #0D1F2D;
   background-color: transparent;
   text-decoration: none;
   font-size: 20px;
 }
 
-a:hover{
+a:hover {
   color: #FAE1DF;
   background-color: transparent;
   text-decoration: underline;
   font-size: 40px;
 }
 
-a:visited{
+a:visited {
   color: #546A7B;
   background-color: purple;
   text-decoration: underline;
   font-size: 20px;
 }
 
-a:active{
+a:active {
   color: #FAE1DF;
   background-color: transparent;
   text-decoration: underline;
