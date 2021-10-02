@@ -8,6 +8,10 @@
   margin-top: 4px;
 }
 
+body{
+  background-color: ivory;
+}
+
 #top p{
   text-align: center;
   color: #0D1F2D;
@@ -19,9 +23,10 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 5px #FAE1DF;
+  border: 10px #FAE1DF;
   border-style: double;
   padding: 10px;
+
 }
 
 #under_pic{
@@ -38,7 +43,7 @@
   text-align: center;
   color: #FAE1DF;
   font-family: "Big Shoulders Text";
-  padding: 1px;
+  padding: -1px;
 
 }
 
@@ -49,6 +54,7 @@
   padding: 20px;
   margin-right: 300px;
   margin-top: 30px;
+  margin-left: -20px;
   margin-bottom: 30px;
   border: solid #FAE1DF 10px
 }
@@ -60,8 +66,16 @@
   padding: 20px;
   margin-left: 300px;
   margin-top: 10px;
+  margin-right: -20px;
   margin-bottom: 30px;
   border: solid #FAE1DF 10px
+}
+
+#pattern_lib{
+  color: #0D1F2D;
+  font-family: "Big Shoulders Text";
+  text-align: center;
+  font-size: 3vw;
 }
 
 
