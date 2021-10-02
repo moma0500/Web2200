@@ -1,12 +1,17 @@
 #top h1{
   text-align: center;
-  font-size: 45px;
+  font-size: 15vw;
   color: #0D1F2D;
+  font-family: "Big Shoulders Display";
+  font-weight: 800;
+  margin-bottom: 0px;
+  margin-top: 4px;
 }
 
 #top p{
   text-align: center;
   color: #0D1F2D;
+  font-family: "Big Shoulders Text";
 }
 
 #top img{
@@ -14,53 +19,75 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  border: 5px pink;
+  border: 5px #FAE1DF;
   border-style: double;
   padding: 10px;
 }
 
-#web{
+#under_pic{
   text-align: center;
   font-size: 17px;
   color: #0D1F2D;
+  font-family: "Big Shoulders Display";
+  padding-top: -5px;
+  padding-bottom: -5px;
+
 }
 
 #weblinks{
   text-align: center;
-  color: green;
+  color: #FAE1DF;
+  font-family: "Big Shoulders Text";
+  padding: 1px;
+
 }
 
 #goals{
   color: #0D1F2D;
+  font-family: "Big Shoulders Text";
+  text-align: center;
+  padding: 20px;
+  margin-right: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: solid #FAE1DF 10px
 }
 
 #abtme{
   color: #0D1F2D;
+  font-family: "Big Shoulders Text";
+  text-align: center;
+  padding: 20px;
+  margin-left: 300px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border: solid #FAE1DF 10px
 }
 
+
 a:link{
-  color: pink;
+  color: #0D1F2D;
   background-color: transparent;
   text-decoration: none;
   font-size: 20px;
 }
 
 a:hover{
-  color: purple;
+  color: #FAE1DF;
   background-color: transparent;
   text-decoration: underline;
-  font-size: 20px;
+  font-size: 40px;
 }
 
 a:visited{
-  color: purple;
+  color: #546A7B;
   background-color: purple;
   text-decoration: underline;
   font-size: 20px;
 }
 
 a:active{
-  color: black;
+  color: #FAE1DF;
   background-color: transparent;
   text-decoration: underline;
   font-size: 20px;
