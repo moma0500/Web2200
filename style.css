@@ -19,7 +19,7 @@ body {
 #top p {
   text-align: center;
   color: #0D1F2D;
-  font-family: "Big Shoulders Text";
+  font-family: "Big Shoulders Display";
 }
 
 #top img {
@@ -44,13 +44,13 @@ body {
 #weblinks {
   text-align: center;
   color: #FAE1DF;
-  font-family: "Big Shoulders Text";
+  font-family: "Big Shoulders Display";
   padding: -1px;
 }
 
 #goals {
   color: #0D1F2D;
-  font-family: "Big Shoulders Text";
+  font-family: "Big Shoulders Display";
   text-align: center;
   padding: 20px;
   margin-right: 300px;
@@ -62,7 +62,7 @@ body {
 
 #abtme {
   color: #0D1F2D;
-  font-family: "Big Shoulders Text";
+  font-family: "Big Shoulders Display";
   text-align: center;
   padding: 20px;
   margin-left: 300px;
@@ -74,7 +74,7 @@ body {
 
 #pattern_lib {
   color: #0D1F2D;
-  font-family: "Big Shoulders Text";
+  font-family: "Big Shoulders Display";
   text-align: center;
   font-size: 3vw;
 }
@@ -82,42 +82,42 @@ body {
 #header1 {
   font-size: 96px;
   margin: auto;
-  font-family: "Big Shoulders Text";
+  font-family: "Big Shoulders Display";
   text-align: center;
 }
 
 #header2 {
   font-size: 64px;
   margin: auto;
-  font-family: "Big Shoulders Text";
+  font-family: "Big Shoulders Display";
   text-align: center;
 }
 
 #header3 {
   font-size: 48px;
   margin: auto;
-  font-family: "Big Shoulders Text";
+  font-family: "Big Shoulders Display";
   text-align: center;
 }
 
 #header4 {
   font-size: 36px;
   margin: auto;
-  font-family: "Big Shoulders Text";
+  font-family: "Big Shoulders Display";
   text-align: center;
 }
 
 #header5 {
   font-size: 24px;
   margin: auto;
-  font-family: "Big Shoulders Text";
+  font-family: "Big Shoulders Display";
   text-align: center;
 }
 
 #header6 {
   font-size: 18px;
   margin: auto;
-  font-family: "Big Shoulders Text";
+  font-family: "Big Shoulders Display";
   text-align: center;
 }
 
