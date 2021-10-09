@@ -1,7 +1,7 @@
 #top h1 {
   text-align: center;
   font-size: 15vw;
-  color: #0D1F2D;
+  color: #546A7B;
   font-family: "Big Shoulders Display";
   font-weight: 800;
   margin-bottom: 0px;
@@ -16,9 +16,26 @@ body {
   background-color: ivory;
 }
 
+#button1{
+  background-color: ivory;
+  font-family: "Big Shoulders Display";
+  font-size: 30px;
+  padding: 7px 50px;
+  position: relative;
+  left:40vw;
+}
+
+#button2{
+  background-color: ivory;
+  font-family: "Big Shoulders Display";
+  font-size: 15px;
+  padding: 7px 50px;
+  position: relative;
+  left:43.5vw;
+}
 #top p {
   text-align: center;
-  color: #0D1F2D;
+  color: #546A7B;
   font-family: "Big Shoulders Display";
 }
 
@@ -35,7 +52,7 @@ body {
 #under_pic {
   text-align: center;
   font-size: 17px;
-  color: #0D1F2D;
+  color: #546A7B;
   font-family: "Big Shoulders Display";
   padding-top: -5px;
   padding-bottom: -5px;
@@ -49,31 +66,34 @@ body {
 }
 
 #goals {
-  color: #0D1F2D;
+  color: #546A7B;
   font-family: "Big Shoulders Display";
   text-align: center;
   padding: 20px;
   margin-right: 300px;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-left: -20px;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   border: solid #FAE1DF 10px
 }
 
+
+
 #abtme {
-  color: #0D1F2D;
+  color: #546A7B;
   font-family: "Big Shoulders Display";
   text-align: center;
   padding: 20px;
   margin-left: 300px;
   margin-top: 10px;
-  margin-right: -20px;
+  margin-right: -50px;
   margin-bottom: 30px;
   border: solid #FAE1DF 10px
 }
 
+
 #pattern_lib {
-  color: #0D1F2D;
+  color: #546A7B;
   font-family: "Big Shoulders Display";
   text-align: center;
   font-size: 3vw;
@@ -81,6 +101,7 @@ body {
 
 #header1 {
   font-size: 96px;
+  color: #546A7B;
   margin: auto;
   font-family: "Big Shoulders Display";
   text-align: center;
@@ -88,6 +109,7 @@ body {
 
 #header2 {
   font-size: 64px;
+  color: #546A7B;
   margin: auto;
   font-family: "Big Shoulders Display";
   text-align: center;
@@ -95,6 +117,7 @@ body {
 
 #header3 {
   font-size: 48px;
+  color: #546A7B;
   margin: auto;
   font-family: "Big Shoulders Display";
   text-align: center;
@@ -102,6 +125,7 @@ body {
 
 #header4 {
   font-size: 36px;
+  color: #546A7B;
   margin: auto;
   font-family: "Big Shoulders Display";
   text-align: center;
@@ -109,6 +133,7 @@ body {
 
 #header5 {
   font-size: 24px;
+  color: #546A7B;
   margin: auto;
   font-family: "Big Shoulders Display";
   text-align: center;
@@ -116,22 +141,23 @@ body {
 
 #header6 {
   font-size: 18px;
+  color: #546A7B;
   margin: auto;
   font-family: "Big Shoulders Display";
   text-align: center;
 }
 
-#hr3 {
+#line3 {
   border: solid #FAE1DF 4px;
   margin-top: 30px;
 }
 
-#hr2 {
+#line2 {
   border: solid #FAE1DF 2px;
   margin-top: 30px;
 }
 
-#hr1 {
+#line1 {
   border-color: #FAE1DF;
   border-style: double;
   margin-top: 30px;
@@ -148,7 +174,7 @@ body {
 }
 
 a:link {
-  color: #0D1F2D;
+  color: #FAE1DF;
   background-color: transparent;
   text-decoration: none;
   font-size: 20px;

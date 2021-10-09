@@ -1,0 +1,81 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+p {
+  color: red;
+  font-family: helvetica;
+}
+
+h1, h2 {
+  font-family: Yaldevi;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+#hero h1 {
+  z-index: 1;
+  position: relative;
+  font-size: 5vw;
+  top: 30vh;
+  margin: 0 0 0 7vw;
+}
+
+#hero {
+  width: 100vw;
+  height: 60vh;
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+}
+
+#hero img {
+  width: 130vw;
+  position: relative;
+  bottom: 130px;
+}
+
+/* #girl img{} */
+/* another option for editing photos within a section */
+#one, #two, #three {
+  margin-left: 7vw;
+  margin-right: 3vw;
+}
+
+button {
+  background-color: #ebbd34;
+  font-family: "Yaldevi";
+  font-size: 30px;
+  padding: 7px 15px;
+  margin: 10px;
+  position: relative;
+  margin: auto;
+}
+
+button:active {
+  background-color: blue;
+}
+
+button:hover {
+  border: solid black 3px;
+}
+
+a:visited {
+  color: lightgrey;
+}
+
+a:link {
+  color: blue;
+}
+
+a:active {
+  color: red;
+}
+
+a:hover {
+  font-size: 200%;
+  color: red;
+}

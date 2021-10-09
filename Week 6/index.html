@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Week 6</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Yaldevi|Ephesis">
+</head>
+
+<body>
+  <section id="hero">
+    <h1 id="herotitle">Welcome to my site</h1>
+    <img alt="lady" src="girl.jpg" id="hero">
+  </section>
+  <section id="one">
+    <h2>this is my <span id="first">first section</span></h2>
+    <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before. Many say exploration is
+      part of our destiny, but it’s actually our duty to future generations and their quest to ensure the survival of the human species.</p>
+    <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before. Many say exploration is
+      part of our destiny, but it’s actually our duty to future generations and their quest to ensure the survival of the human species.</p>
+  </section>
+  <section id="two">
+    <h2>this is my <a href="https://google.com">second section</h2></a>
+    <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before. Many say exploration is
+      part of our destiny, but it’s actually our duty to future generations and their quest to ensure the survival of the human species.</p>
+    <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before. Many say exploration is
+      part of our destiny, but it’s actually our duty to future generations and their quest to ensure the survival of the human species.</p>
+
+  </section>
+
+  <section id="three">
+    <h2>this section contains a button</h2>
+    <button id="mybutton">Click this button</button>
+    <button id="mybutton2">Click this button</button>
+  </section>
+
+  <script>
+    document.getElementById("mybutton").addEventListener("click", buttonOne);
+
+    document.getElementById("mybutton2").addEventListener("click", buttonClicked);
+
+    function buttonClicked() {
+      alert("you pushed the second button!");
+      document.getElementById("herotitle").innerHTML = "You are not welcome!";
+    }
+
+
+    document.getElementById("hero").addEventListener("click", heroClick);
+
+    function heroClick() {
+      alert("you clicked hero")
+    }
+
+    function buttonOne() {
+      alert("you pushed the button!");
+      document.getElementById("first").style.color = "blue";
+      document.getElementById("three").style.backgroundColor = "skyblue";
+    }
+  </script>
+</body>
+
+</html>

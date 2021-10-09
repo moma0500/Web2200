@@ -5,11 +5,13 @@
   <meta charset="utf-8">
   <title>Hello Me</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Big%20Shoulders%20Display"> </head>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Big%20Shoulders%20Display">
+</head>
 
 <body>
   <section id="top">
     <h1> Hello Me! </h1>
+    <button id="button2">Welcome Alert!</button>
     <p><b><u>Name:</u></b> Montgomery "McClain" Martensen</p>
     <p><b><u>Pronouns:</u></b> She/Her/Hers</p>
 
@@ -28,8 +30,14 @@
     <p><a href="Week%203/index.html">Week 3 Lecture</a></p>
     <p><a href="Week%204/index.html">Week 4 Lecture</a></p>
     <p><a href="Week%205/index.html">Week 5 Lecture</a></p>
+    <p><a href="Week%206/index.html">Week 6 Lecture</a></p>
 
   </section>
+
+  <section id="darkmode">
+    <button id="button1">Switch to Dark Mode</button>
+  </section>
+
 
   <section id="goals">
     <h2><b>Goals For This Course</b></h2>
@@ -52,7 +60,7 @@
     <h2><b>My Site Pattern Library</b></h2>
   </section>
 
-  <section>
+  <section id="headers">
     <p id="header1"><b>Header 1</b></p>
     <p id="header2"><b>Header 2</b></p>
     <p id="header3"><b>Header 3</b></p>
@@ -60,15 +68,43 @@
     <p id="header5"><b>Header 5</b></p>
     <p id="header6"><b>Header 6</b></p>
 
-    <hr id="hr3">
-    <hr id="hr2">
-    <hr id="hr1">
+    <hr id="line1">
+    <hr id="line2">
+    <hr id="line3">
 
     <img id="palette" src="color_palette.png" alt="site color palette">
 
 
   </section>
 
+  <script>
+
+    document.getElementById("button2").addEventListener("click", function(){
+      alert("Welcome to my site! Here you'll find my work from ATLS 2200 Web class.")
+    });
+
+    document.getElementById("button1").addEventListener("click", darkMode);
+
+    function darkMode() {
+      alert("You've switched to dark mode!");
+      document.getElementById("top").style.color = "ivory";
+      document.getElementById("under_pic").style.color = "ivory";
+      // document.getElementById("weblinks").style.backgroundColor = "ivory";
+      document.getElementById("goals").style.borderColor = "#9ea3b0";
+      document.getElementById("goals").style.color = "ivory";
+      document.getElementById("abtme").style.borderColor = "#9ea3b0";
+      document.getElementById("abtme").style.color = "ivory";
+      document.getElementById("headers").style.color = "ivory";
+      document.getElementById("palette").style.borderColor = "#9ea3b0";
+      document.getElementById("pattern_lib").style.color = "#9ea3b0";
+      document.getElementById("line1").style.color = "#9ea3b0";
+      document.getElementById("line2").style.color = "#9ea3b0";
+      document.getElementById("line3").style.color = "#9ea3b0";
+
+      document.body.style.backgroundColor = "#0d1f2d";
+
+    }
+  </script>
 
 </body>
 
