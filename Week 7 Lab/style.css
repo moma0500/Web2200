@@ -1,0 +1,58 @@
+#top{
+  text-align: center;
+  font-family: "Rampart One";
+  color: black;
+  font-size: 50px;
+}
+
+#quotesection {
+  background-color: #dbd63d;
+  margin: 10vh 20vw;
+  padding: 8vh 10vw 10vh 10vw;
+  border-radius: 15px;
+}
+
+button{
+  border-radius: 8px;
+  padding: 1vh 3vw;
+  float: right;
+  margin-top: 1vh;
+  background-color: black;
+  color: ivory;
+  font-family: "Rampart One";
+  font-weight: bold;
+}
+
+button:hover{
+  border: #fff solid 1px;
+}
+
+border:active{
+  color: #c3c639;
+}
+h1{
+  color: ivory;
+  font-family: "Oswald";
+}
+
+#flex{
+  display: flex;
+  margin: 150px;
+}
+
+div{
+  border: 1px solid black;
+  margin-left: 2vw;
+}
+
+.flexitem{
+  flex-grow: 1;
+}
+
+.flexitem2{
+  flex-grow: 2;
+}
+
+#insta img{
+  width: 2vw;
+}

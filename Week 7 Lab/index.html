@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Quote Machine</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rampart+One">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oswald">
+
+
+</head>
+
+<body>
+  <h1 id="top">Cheesy Movie Quote Generator</h1>
+
+  <section id="quotesection">
+    <h1 id="qtext">Welcome to the cheesy quote machine, click the button to get a quote.</h1>
+    <button id="newquote">New Quote</button>
+  </section>
+
+  <!-- <section id="flex">
+    <div class="flexitem">
+    </div>
+
+    <div class="flexitem2">
+      <h2>two</h2>
+    </div>
+
+    <div class="flexitem">
+      <h2>three</h2>
+    </div>
+  </section> -->
+
+  <script>
+
+    const quotes = ["Movie: Batman & Robin --> MR. FREEZE: Tonight's forecast... a freeze is coming!", "Movie: Gigli --> RICKI: It's turkey time. LARRY GIGLI: Huh? RICKI: Gobble, gobble.",
+      "Movie: They Live --> NADA: I have come here to chew bubblegum and kick ass... and I'm all out of bubblegum.",
+      "Movie: Commando --> COOKIE: You scared, *beep* Well, you should be, because this Green Beret is goinsg to kick your big ass! MATRIX: I eat Green Berets for breakfast. And right now, I'm very hungry!",
+      "Movie: The Wicker Man --> EDWARD MALUS: Killing me won't bring back your goddamn honey!", "Movie: Leathal Weapon 2 --> ARJEN RUDD: \n Diplomatic immunity! (gets shot dead) ROGER MURTAUGH: It's just been revoked!", "Movie: Point Break --> JOHNNY UTAH: This is your wakeup call I AM AN F... B... I AGENT!",
+      "Movie: Forrest Gump --> FORREST GUMP: My momma always said, 'Life was like a box of chocolates. You never know what you're gonna get.", "Movie: Transformers: Revenge of the Fallen --> AGENT SIMMONS: I am directly below... the enemy's scrotum.", "Movie: Leathal Weapon --> ROGER MURTAUGH: I'm too old for this *beep*"
+
+
+    ];
+
+
+    let quotecount = 0;
+
+    console.log(quotes.length);
+
+
+    document.getElementById("newquote").addEventListener("click", buttonClicked);
+
+
+    function buttonClicked() {
+
+      console.log(quotes[quotecount]);
+      document.getElementById("qtext").innerHTML = quotes[quotecount];
+      if (quotecount >= 9) {
+        quotecount = 0;
+      } else {
+        quotecount += 1;
+      }
+
+
+    }
+  </script>
+</body>
+
+</html>

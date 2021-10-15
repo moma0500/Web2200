@@ -1,0 +1,53 @@
+#top{
+  text-align: center;
+  font-family: "Rampart One";
+  color: black;
+}
+
+#quotesection {
+  background-color: #114aa6;
+  margin: 30vh 20vw;
+  padding: 8vh 10vw 10vh 10vw;
+  border-radius: 10px;
+}
+
+button{
+  border-radius: 8px;
+  padding: 1vh 3vw;
+  float: right;
+  margin-top: 1vh;
+  background-color: black;
+  color: ivory;
+  font-family: "Open Sans";
+  font-weight: bold;
+}
+
+button:hover{
+  border: #fff solid 1px;
+}
+
+border:active{
+  color: #c3c639;
+}
+h1{
+  color: ivory;
+  font-family: "EB Garamond";
+}
+
+#flex{
+  display: flex;
+  margin: 150px;
+}
+
+div{
+  border: 1px solid black;
+  margin-left: 2vw;
+}
+
+.flexitem{
+  flex-grow: 1;
+}
+
+.flexitem2{
+  flex-grow: 2;
+}
