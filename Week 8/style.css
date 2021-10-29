@@ -1,0 +1,34 @@
+div {
+  background-color: pink;
+}
+
+#pets {
+  display: flex;
+}
+
+.options {
+  flex-grow: 1;
+  width: auto;
+  margin: 2vw;
+}
+
+img {
+  max-width: 25vw;
+  height: 30vh;
+  width: 25vw;
+  object-fit: cover;
+  /* changing imageview */
+  /* object-position: 0px, 0px, 0px, 0px; */
+  padding: 23px;
+}
+
+button{
+  float: right;
+  padding: 10px, 50px;
+  margin-right: 2vw;
+}
+
+.blue{
+  background-color: blue;
+  color: ivory;
+}
