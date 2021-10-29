@@ -5,12 +5,13 @@
   <meta charset="utf-8" lang="en">
   <title>Midterm Project</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Zilla+Slab">
+
 </head>
 
 <body>
 
-
-
+  <h1 id="title">McClain's Self Care Menu</h1>
   <!-- weekday tabs -->
   <section id="tabs">
     <!-- divs populated with javascript -->
@@ -52,98 +53,196 @@
     <!-- image div - left panel -->
     <div id="image">
     </div>
-    <!-- date div - right panel -->
-    <div id="date">
-    </div>
 
-    <!-- days of the week todo list dic - middle panel-->
+    <!-- calendar date, days of the week todo list div, quote - middle panel-->
     <!-- sunday -->
     <div id="sundaytodo" class="todo">
-      <div>
-        <h2>Sunday To Do:</h2>
-        <ul class="todo_list">
-          <li>Go to the grocery store</li>
-          <li>Meal Prep</li>
-          <li>Read for 1 hour</li>
-          <li>Vinyasa Flow Yoga</li>
-        </ul>
-      <div id="sun_quote">
-      <h4>Hey, I know its Monday. But it’s also a new day and a new week. And in that lies a new  opportunity for something special to happen.</h4>
-    </div>
-
+      <div class="calendar">
+        <h2 class="today">Today:</h2>
+        <h1 class="wday">Sunday,</h1>
+        <h1 class="month_day">October 31,</h1>
+        <h1 class="year">2021</h1>
       </div>
+
+      <div id="menu">
+        <h2 class="head">Sunday To Do</h2>
+        <h2 class="body">Go to the grocery store</h2>
+        <h2 class="body">Meal Prep</h2>
+        <h2 class="body">Read for 1 hour</h2>
+        <h2 class="body">Vinyasa Flow Yoga</h2>
+      </div>
+
+      <div id="sun_quote" class="quote">
+        <h2>Quote of the Day:</h2>
+        <h4>"A sunday well spent brings a week of content."</h4>
+      </div>
+
 
     </div>
     <!-- monday -->
     <div id="mondaytodo" class="todo">
-    <div>
-      <h2>Monday To Do:</h2>
-      <ul class="todo_list">
-        <li>Go to the rec</li>
-        <li>Prepare upcoming week schedule</li>
-        <li>Go to bed before 10pm</li>
-        <li>Meditate outside</li>
-      </ul>
-    </div>
+      <div class="calendar">
+        <h2 class="today">Today:</h2>
+        <h1 class="wday">Monday,</h1>
+        <h1 class="month_day">November 1,</h1>
+        <h1 class="year">2021</h1>
+      </div>
 
-    <div id="mon_quote">
-      <h4>Hey, I know its ACTUALLY Monday. But it’s also a new day and a new week. And in that lies a new  opportunity for something special to happen.</h4>
+      <div id="menu">
+        <h2 class="head">Monday To Do</h2>
+        <h2 class="body">Go to the rec</h2>
+        <h2 class="body">Prepare upcoming week schedule</h2>
+        <h2 class="body">Go to bed before 10pm</h2>
+        <h2 class="body">Meditate outside</h2>
+      </div>
+
+      <div id="mon_quote" class="quote">
+        <h2>Quote of the Day:</h2>
+        <h4>“Your Monday morning thoughts set the tone for your whole week. See yourself getting stronger, and living a fulfilling, happier and healthier life.”</h4>
       </div>
 
     </div>
     <!-- tuesday -->
     <div id="tuesdaytodo" class="todo">
-      <h2>Tuesday To Do:</h2>
-      <ul class="todo_list">
-        <li>Plank challenge!</li>
-        <li>Clean my room</li>
-        <li>Skin care routine</li>
-        <li>Write in journal </li>
-      </ul>
+
+      <div class="calendar">
+        <h2 class="today">Today:</h2>
+        <h1 class="wday">Tuesday,</h1>
+        <h1 class="month_day">November 2,</h1>
+        <h1 class="year">2021</h1>
+      </div>
+
+      <div id="menu">
+        <h2 class="head">Tuesday To Do</h2>
+        <h2 class="body">Plank challenge!</h2>
+        <h2 class="body">Clean my room</h2>
+        <h2 class="body">Skin care routine</h2>
+        <h2 class="body">Write in journal </h2>
+      </div>
+
+      <div id="tue_quote" class="quote">
+        <h2>Quote of the Day:</h2>
+        <h4>“Distractions are everywhere. Notice what takes your attention, acknowledge it, and then let it go.”</h4>
+      </div>
+
     </div>
     <!-- wednesday -->
     <div id="wednesdaytodo" class="todo">
-      <h2>Wednesday To Do:</h2>
-      <ul class="todo_list">
-        <li>Wake up before 7:30 a.m.</li>
-        <li>Do the dishes</li>
-        <li>Go on a hike</li>
-        <li>Wear retainer</li>
-      </ul>
+
+      <div class="calendar">
+        <h2 class="today">Today:</h2>
+        <h1 class="wday">Wednesday,</h1>
+        <h1 class="month_day">November 3,</h1>
+        <h1 class="year">2021</h1>
+      </div>
+
+      <div id="menu">
+        <h2 class="head">Wednesday To Do</h2>
+        <h2 class="body">Wake up before 7:30 a.m.</h2>
+        <h2 class="body">Do the dishes</h2>
+        <h2 class="body">Go on a hike</h2>
+        <h2 class="body">Wear retainer</h2>
+      </div>
+
+      <div id="wed_quote" class="quote">
+        <h2>Quote of the Day:</h2>
+        <h4>"Today I will not stress over things I can't control."</h4>
+      </div>
+
     </div>
     <!-- thursday -->
     <div id="thursdaytodo" class="todo">
-      <h2>Thursday To Do:</h2>
-      <ul class="todo_list">
-        <li>Call family</li>
-        <li>10 Jailhouse Workout</li>
-        <li>Watch movie and decompress</li>
-        <li>Eat favorite dessert</li>
-      </ul>
+
+      <div class="calendar">
+        <h2 class="today">Today:</h2>
+        <h1 class="wday">Thursday,</h1>
+        <h1 class="month_day">November 4,</h1>
+        <h1 class="year">2021</h1>
+      </div>
+
+      <div id="menu">
+        <h2 class="head">Thursday To Do</h2>
+        <h2 class="body">Call family</h2>
+        <h2 class="body">Jailhouse Workout</h2>
+        <h2 class="body">Watch movie and decompress</h2>
+        <h2 class="body">Eat favorite dessert</h2>
+      </div>
+
+      <div id="thu_quote" class="quote">
+        <h2>Quote of the Day:</h2>
+        <h4>“Don't compare yourself to others. There is no comparison between the sun and the moon. They shine when it's their time.”</h4>
+      </div>
+
     </div>
     <!-- friday -->
     <div id="fridaytodo" class="todo">
-      <h2>Friday To Do:</h2>
-      <ul class="todo_list">
-        <li>Early morning cardio workout</li>
-        <li>Wear makeup and do hair before school</li>
-        <li>Hang out with friends</li>
-      </ul>
+
+      <div class="calendar">
+        <h2 class="today">Today:</h2>
+        <h1 class="wday">Friday,</h1>
+        <h1 class="month_day">November 5,</h1>
+        <h1 class="year">2021</h1>
+      </div>
+
+      <div id="menu">
+        <h2 class="head">Friday To Do</h2>
+        <h2 class="body">Early morning cardio workout</h2>
+        <h2 class="body">Wear makeup and do hair before school</h2>
+        <h2 class="body">Hang out with friends</h2>
+      </div>
+
+      <div id="fri_quote" class="quote">
+        <h2>Quote of the Day:</h2>
+        <h4>“Take time to make your soul happy.”</h4>
+      </div>
+
     </div>
+
     <!-- saturday -->
     <div id="saturdaytodo" class="todo">
-      <h2>Saturday To Do:</h2>
-      <ul class="todo_list">
-        <li>Sleep in</li>
-        <li>Brunch with roomies</li>
-        <li>Tidy my room</li>
-        <li>Finish 80% of homework</li>
-      </ul>
+
+      <div class="calendar">
+        <h2 class="today">Today:</h2>
+        <h1 class="wday">Saturday,</h1>
+        <h1 class="month_day">November 6,</h1>
+        <h1 class="year">2021</h1>
+      </div>
+
+      <div id="menu">
+        <h2 class="head">Saturday To Do</h2>
+        <h2 class="body">Sleep in</h2>
+        <h2 class="body">Brunch with roomies</h2>
+        <h2 class="body">Tidy my room</h2>
+        <h2 class="body">Finish 80% of homework</h2>
+      </div>
+
+      <div id="sat_quote" class="quote">
+        <h2>Quote of the Day:</h2>
+        <h4>"If it comes, let it come. If it goes, it’s ok, let it go. Let things come and go. Stay calm, don’t let anything disturb your peace, and carry on."</h4>
+      </div>
+
+
+
+    </div>
+
+    <div id="middle">
+
+      <div id="survey">
+        <h2 class="head_survey">How are you <br>feeling today?</h2>
+        <button id="stressed">Stressed</button><br>
+        <button id="angry">Angry</button><br>
+        <button id="sad">Sad</button><br>
+        <button id="meh">Meh</button><br>
+        <button id="okay">Okay</button><br>
+        <button id="great">Great!</button>
+      </div>
+
     </div>
 
 
   </section>
 
+  <!-- bottom of screen -->
 
   <script type="text/javascript" src="index.js"></script>
 

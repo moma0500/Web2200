@@ -1,6 +1,5 @@
 let weekdays = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
 let images = ["sunday.jpeg", "monday.jpeg", "tuesday.jpeg", "wednesday.jpeg", "thursday.jpeg", "friday.jpeg", "saturday.jpeg"];
-let date = ["October 31st, 2021","November 1st, 2021","November 2nd, 2021","November 3rd, 2021","November 4th, 2021","November 5th, 2021","November 6th, 2021"]
 let prevday; //used to remember where the old tab is
 
 //populate divs
@@ -15,7 +14,6 @@ for (i = 0; i < document.getElementsByClassName("weekday").length; i++) {
 
 document.getElementById('sunday').classList.toggle('active');
 document.getElementById("image").innerHTML = "<img src='assets/" + images[0] + "' >";
-document.getElementById("date").innerHTML = date[0];
 
 
 function setActive(e) {
@@ -39,7 +37,46 @@ function setActive(e) {
   console.log(weekday);
   document.getElementById(weekday + "todo").style.display = "block";
   document.getElementById('image').innerHTML = "<img src= 'assets/" + weekday + ".jpeg'>";
-  document.getElementById('date').innerHTML = date;
+}
+
+//survey
+document.getElementById("stressed").addEventListener("click", buttonStressed);
+document.getElementById("angry").addEventListener("click", buttonAngry);
+document.getElementById("sad").addEventListener("click", buttonSad);
+document.getElementById("meh").addEventListener("click", buttonMeh);
+document.getElementById("okay").addEventListener("click", buttonOkay);
+document.getElementById("great").addEventListener("click", buttonGreat);
+
+
+
+function buttonStressed() {
+  alert("I'm sorry you're stressed today. Treat yourself today when you get the chance.");
+  document.getElementById("survey").style.backgroundColor = "yellow";
+}
+
+function buttonAngry() {
+  alert("Take a deep breath... go on a walk. Calm down. Go sweat that frustration out at the gym.");
+  document.getElementById("survey").style.backgroundColor = "red";
+}
+
+function buttonSad() {
+  alert("Keep your head up. Know that nothing is permanent and you will be okay in the long run.");
+  document.getElementById("survey").style.backgroundColor = "darkblue";
+}
+
+function buttonMeh() {
+  alert("Get outside! Do something fun RIGHT NOW!");
+  document.getElementById("survey").style.backgroundColor = "beige";
+}
+
+function buttonOkay() {
+  alert("Not every day can be the best. I'm just glad it's not a bad one.");
+  document.getElementById("survey").style.backgroundColor = "lightgreen";
+}
+
+function buttonGreat() {
+  alert("YAY!!! Happy for you :)");
+  document.getElementById("survey").style.backgroundColor = "green";
 }
 
 
