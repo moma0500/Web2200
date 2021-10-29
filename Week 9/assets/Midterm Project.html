@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<!-- saved from url=(0047)http://127.0.0.1:3000/Week%209%20Lab/index.html -->
+<html lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>Midterm Project</title>
+  <link rel="stylesheet" href="./Midterm Project_files/style.css">
+</head>
+
+<body cz-shortcut-listen="true">
+
+
+
+  <!-- weekday tabs -->
+  <section id="tabs">
+    <!-- divs populated with javascript -->
+    <div class="weekday active" id="sunday"><h2>sunday</h2><h2></h2></div>
+
+    <div class="weekday" id="monday"><h2>monday</h2><h2></h2></div>
+
+    <div class="weekday" id="tuesday"><h2>tuesday</h2><h2></h2></div>
+
+    <div class="weekday" id="wednesday"><h2>wednesday</h2><h2></h2></div>
+
+    <div class="weekday" id="thursday"><h2>thursday</h2><h2></h2></div>
+
+    <div class="weekday" id="friday"><h2>friday</h2><h2></h2></div>
+
+    <div class="weekday" id="saturday"><h2>saturday</h2><h2></h2></div>
+
+  </section>
+
+  <section id="items">
+    <div id="image"><img src="./Midterm Project_files/sunday.jpeg"></div>
+
+  <!-- days of the week todo list -->
+        <!-- sunday -->
+        <div id="sundaytodo" class="todo">
+          <div id="sun_date">
+            <h2>November 1st</h2>
+            <div>
+          <div id="quote0">
+            <h4>Hey, I know its Monday. But it’s also a new day and a new week. And in that lies a new  opportunity for something special to happen.</h4>
+            </div>
+
+          <h2>Sunday To Do:</h2>
+          <ul class="todo_list">
+            <li>Go to the grocery store</li>
+            <li>Meal Prep</li>
+            <li>Read for 1 hour</li>
+            <li>Vinyasa Flow Yoga</li>
+          </ul>
+        </div>
+        <!-- monday -->
+        <div id="mondaytodo" class="todo">
+          <h2>Monday To Do:</h2>
+          <ul class="todo_list">
+            <li>Go to the rec</li>
+            <li>Prepare upcoming week schedule</li>
+            <li>Go to bed before 10pm</li>
+            <li>Meditate outside</li>
+          </ul>
+        </div>
+        <!-- tuesday -->
+        <div id="tuesdaytodo" class="todo">
+          <h2>Tuesday To Do:</h2>
+          <ul class="todo_list">
+            <li>Plank challenge!</li>
+            <li>Clean my room</li>
+            <li>Skin care routine</li>
+            <li>Write in journal </li>
+          </ul>
+        </div>
+        <!-- wednesday -->
+        <div id="wednesdaytodo" class="todo">
+          <h2>Wednesday To Do:</h2>
+          <ul class="todo_list">
+            <li>Wake up before 7:30 a.m.</li>
+            <li>Do the dishes</li>
+            <li>Go on a hike</li>
+            <li>Wear retainer</li>
+          </ul>
+        </div>
+        <!-- thursday -->
+        <div id="thursdaytodo" class="todo">
+          <h2>Thursday To Do:</h2>
+          <ul class="todo_list">
+            <li>Call family</li>
+            <li>10 Jailhouse Workout</li>
+            <li>Watch movie and decompress</li>
+            <li>Eat favorite dessert</li>
+          </ul>
+        </div>
+        <!-- friday -->
+        <div id="fridaytodo" class="todo">
+          <h2>Friday To Do:</h2>
+          <ul class="todo_list">
+            <li>Early morning cardio workout</li>
+            <li>Wear makeup and do hair before school</li>
+            <li>Hang out with friends</li>
+          </ul>
+        </div>
+        <!-- saturday -->
+        <div id="saturdaytodo" class="todo">
+          <h2>Saturday To Do:</h2>
+          <ul class="todo_list">
+            <li>Sleep in</li>
+            <li>Brunch with roomies</li>
+            <li>Tidy my room</li>
+            <li>Finish 80% of homework</li>
+          </ul>
+        </div>
+
+        <div id="date">
+          <h2>November 1st</h2>
+
+        </div>
+
+
+  </div></div></section>
+
+
+  <script type="text/javascript" src="./Midterm Project_files/index.js"></script>
+
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function() {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					head.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					head.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function(msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			console.log('Live reload enabled.');
+		})();
+	}
+	// ]]>
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang=" " dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Tasting Menu</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <h1 id = "header">Interactive Menu</h1>
+
+  <section id="tabs">
+
+    <div class="meal">
+    </div>
+
+    <div class="meal">
+    </div>
+
+    <div class="meal">
+    </div>
+
+  </section>
+
+  <section id="items">
+    <div id='image'>
+    </div>
+
+    <div id="breakfastmenu" class="menu">
+      <div class="starter">
+        <h3>Starter</h3>
+        <h4>Chips and Queso</h4>
+        <h4>Pigs in a Blanket</h4>
+      </div>
+
+      <div class="entree">
+        <h3>Entree</h3>
+        <h4>Breakfast Burrito</h4>
+        <h4>Potatoes</h4>
+      </div>
+
+      <div class="dessert">
+        <h3>Drinks</h3>
+        <h4>Orange Juice</h4>
+        <h4>Coffee</h4>
+      </div>
+
+    </div>
+
+    <div id="lunchmenu" class="menu">
+      <div class="starter">
+        <h3>Starter</h3>
+        <h4>Caesar Salad</h4>
+        <h4>Corn Bread</h4>
+      </div>
+
+      <div class="entree">
+        <h3>Entree</h3>
+        <h4>Chicken Salad Sandwich</h4>
+        <h4>Broccoli and Carrots</h4>
+      </div>
+
+      <div class="dessert">
+        <h3>Dessert</h3>
+        <h4>Cookie</h4>
+        <h4>Fruit Roll Up</h4>
+      </div>
+
+    </div>
+
+    <div id="dinnermenu" class="menu">
+      <div class="starter">
+        <h3>Starter</h3>
+        <h4>Spinach Dip</h4>
+        <h4>Chips and Salsa</h4>
+      </div>
+
+      <div class="entree">
+        <h3>Entree</h3>
+        <h4>Cheeseburger</h4>
+        <h4>Pork Chop</h4>
+      </div>
+
+      <div class="dessert">
+        <h3>Dessert</h3>
+        <h4>Ice Cream Brownie</h4>
+        <h4>Toffee Cake</h4>
+      </div>
+
+    </div>
+
+
+
+  </section>
+
+  <section>
+      <button id="one">one</button>
+      <button id="two">two</button>
+  </section>
+
+  <script type="text/javascript" src="index.js"></script>
+
+<!-- Code injected by--></body></html>

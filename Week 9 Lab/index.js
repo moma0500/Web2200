@@ -1,5 +1,6 @@
 let weekdays = ["sunday", "monday", "tuesday", "wednesday", "thursday", "friday", "saturday"];
 let images = ["sunday.jpeg", "monday.jpeg", "tuesday.jpeg", "wednesday.jpeg", "thursday.jpeg", "friday.jpeg", "saturday.jpeg"];
+let date = ["October 31st, 2021","November 1st, 2021","November 2nd, 2021","November 3rd, 2021","November 4th, 2021","November 5th, 2021","November 6th, 2021"]
 let prevday; //used to remember where the old tab is
 
 //populate divs
@@ -12,8 +13,9 @@ for (i = 0; i < document.getElementsByClassName("weekday").length; i++) {
   document.getElementsByClassName("weekday")[i].id = weekdays[i]; //adding weekday ids to tab divs
 }
 
-document.getElementsByClassName('sunday').classList.toggle('active');
+document.getElementById('sunday').classList.toggle('active');
 document.getElementById("image").innerHTML = "<img src='assets/" + images[0] + "' >";
+document.getElementById("date").innerHTML = date[0];
 
 
 function setActive(e) {
@@ -37,6 +39,7 @@ function setActive(e) {
   console.log(weekday);
   document.getElementById(weekday + "todo").style.display = "block";
   document.getElementById('image').innerHTML = "<img src= 'assets/" + weekday + ".jpeg'>";
+  document.getElementById('date').innerHTML = date;
 }
 
 
