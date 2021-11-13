@@ -1,0 +1,94 @@
+body {
+  font-family: "Roboto";
+  padding:0px;
+  margin: 0;
+}
+
+p {
+  font-size: 20px;
+}
+
+h1{
+  font-family:"Fjalla One";
+}
+
+
+.grey{
+    color: rgb(100, 100,100);
+}
+
+.background{
+  background-color: rgb(225, 225, 225);
+}
+
+
+span{
+  color: blue;
+  font-weight: bold;
+}
+
+#sit{
+  font-family: cursive;
+}
+
+#solid{
+  border:solid rgb(255,225,0) 2px;
+}
+
+#dotted{
+  border:dotted rgb(255,225,0) 2px;
+}
+
+#dashed{
+  border:dashed rgb(255,225,0) 2px;
+}
+
+#double{
+  border:double rgb(255,225,0) 2px;
+}
+
+#ridge{
+  border:ridge rgb(255,225,0) 2px;
+}
+
+#groove{
+  border:groove rgb(255,225,0) 2px;
+}
+
+#two{
+  /* border: solid black 1px; */
+  /* padding: top right bottom left; */
+}
+
+
+
+#one, #two{
+  margin-left: 100px;
+  margin-top: 50px;
+  margin-right: 50px;
+}
+
+#hero{
+  width:100vw;
+  margin:0px;
+  padding: 0px;
+  z-index: -1;
+  bottom: 1100px;
+  position: relative;
+}
+
+#header{
+  height:50vh;
+  overflow: hidden;
+  position: relative;
+}
+
+#header h1{
+  position: absolute;
+  top: 20vh;
+  left: 100px;
+  font-size: 100px;
+  z-index:1;
+  background-color: none;
+  color: white;
+}

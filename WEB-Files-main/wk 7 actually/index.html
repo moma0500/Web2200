@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Quote Machine</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=EB+Garamond|Open+Sans"
+</head>
+<body>
+<section id="quotesection">
+<h1 id="qtext">Welcome the quote machine, click the button to get a quote.</h1>
+<button id="newquote">New Quote</button>
+</section>
+<section id="flex">
+  <div class="flexitem">
+    <h2>one</h2>
+  </div>
+
+  <div class="flexitem2">
+    <h2>two</h2>
+  </div>
+
+  <div class="flexitem">
+    <h2>three</h2>
+  </div>
+</section>
+
+<script>
+  const quotes = ["The best preparation for tomorrow is doing your best today.", "I can't change the direction of the wind, but I can adjust my sails to always reach my destination.", "If you believe in yourself and have dedication and pride - and never quit, you'll be a winner. The price of victory is high but so are the rewards.", "We must let go of the life we have planned, so as to accept the one that is waiting for us.", "Happiness resides not in possessions, and not in gold, happiness dwells in the soul.", "Try to be a rainbow in someone's cloud.", "Only I can change my life. No one can do it for me."];
+  let quotecount = 0;
+
+  document.getElementById("newquote").addEventListener("click", buttonClicked);
+
+  function buttonClicked(){
+    console.log(quotes[quotecount]);
+    document.getElementById("qtext").innerHTML = quotes[quotecount];
+    if(quotecount>=6){
+      quotecount = 0;
+    }else{
+    quotecount++;
+  }
+  }
+
+</script>
+
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+html h2 {
+  font-size: 50px;
+}
+
+body h2 {
+  font-size: 50;
+}
+
+body {
+  width: 50vw;
+}
+
+div {
+  background-color: pink;
+  width: 50%;
+  /* width: 30vw; */
+}
+
+span {
+  background-color: yellow;
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 32px;
+}

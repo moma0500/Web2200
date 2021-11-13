@@ -1,0 +1,33 @@
+div{
+  background-color: pink;
+}
+
+#foods{
+  display:flex;
+}
+
+.options{
+  flex-grow: 1;
+  width: auto;
+  margin: 3vw;
+}
+
+img{
+  max-width: 25vw;
+  height: 30vh;
+  width:25vw;
+  object-fit: cover;
+  padding:10px;
+  /* object-position: 0px 0px 20px 0px; */
+}
+
+button{
+  float:right;
+  padding: 10px 50px;
+  margin-right:3vw;
+}
+
+.blue{
+  background-color: blue;
+  color: white;
+}

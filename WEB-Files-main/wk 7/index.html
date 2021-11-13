@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://kit.fontawesome.com/17596c29da.js" crossorigin="anonymous"></script>
+  <title>Quote Machine</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+
+</head>
+<body>
+  <section id="quote">
+    <h2 id="qtext">Welcome to the quote machine, click the button to generate a quote!</h2>
+    <button id="qbutton">New Quote</button>
+  </section>
+  <section id="flex">
+    <div id="one" class="flexitem">
+      <img src="assets/fb.svg" class="social">
+    </div>
+    <div id="two" class="flexitem">
+      <img src="assets/twitter.svg" class="social">
+    </div>
+    <div id="three" class="flexitem">
+      <img src="assets/insta.svg" class="social">
+    </div>
+  </section>
+
+<script>
+  const quotes = ["When you have a dream, you’ve got to grab it and never let go.", "Nothing is impossible. The word itself says ‘I’m possible!'", "There is nothing impossible to they who will try.","The bad news is time flies. The good news is you’re the pilot.","Life has got all those twists and turns. You’ve got to hold on tight and off you go."];
+  quoteCount = 0;
+  document.getElementById('qbutton').addEventListener("click", newQuote);
+  function newQuote(){
+    document.getElementById("qtext").innerHTML = quotes[quoteCount];
+    alert("clicked");
+    if(quoteCount>=(quotes.length-1)){
+      quoteCount = 0;
+    }else{
+      quoteCount +=1;
+    }
+  }
+
+</script>
+
+</body>
+
+</html>

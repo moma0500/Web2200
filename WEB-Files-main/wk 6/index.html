@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Week 6 - Intro To Javascript</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"           href="https://fonts.googleapis.com/css?family=Bebas+Neue" >
+</head>
+<body>
+<section id="hero" >
+  <h1>Welcome to my Site!</h1>
+  <img alt="man standing on a mountain" src="hero.jpg" id="heroimg" class="img1">
+</section>
+
+<section id="one">
+  <h2>I built this site to talk about links and buttons</h2>
+  <p>Lorem ipsum <a href="#hero">dolor sit amet,</a> consectetur adipiscing elit. Suspendisse tempus odio tempus mauris lobortis, at ornare purus pulvinar. Proin eu enim rhoncus, suscipit tellus eu, bibendum lorem. Nam eu ex at mi efficitur posuere. Sed semper imperdiet orci ac sagittis. Proin ullamcorper metus eget velit molestie, in tincidunt eros elementum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla tempor lobortis lacus ut ullamcorper. Nunc dignissim nec nibh eget mollis.</p>
+  <p>
+  Etiam dui lectus, lobortis vel massa vitae, euismod sodales lacus. Integer quis congue dui. Aliquam fermentum placerat leo, sit amet egestas ante. Sed ipsum lectus, consectetur ut libero eget, semper posuere metus. Nulla nisi diam, fermentum at ligula in, gravida tempus arcu. Morbi blandit sagittis risus vitae pretium. Morbi eget metus et erat maximus consequat. Sed eget ante in neque pharetra feugiat. In aliquam mauris nec euismod rhoncus. Aenean elementum vel risus ac tempor.</p>
+  </section>
+  <section id="two">
+    <h2>Here is another section</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse tempus odio tempus mauris lobortis, at ornare purus pulvinar. Proin eu enim rhoncus, suscipit tellus eu, bibendum lorem. Nam eu ex at mi efficitur posuere. Sed semper imperdiet orci ac sagittis. Proin ullamcorper metus eget velit molestie, in tincidunt eros elementum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nulla tempor lobortis lacus ut ullamcorper. Nunc dignissim nec nibh eget mollis.
+    </p>
+    <p>
+    Etiam dui lectus, lobortis vel massa vitae, euismod sodales lacus. Integer quis congue dui. Aliquam fermentum placerat leo, sit amet egestas ante. Sed ipsum lectus, consectetur ut libero eget, semper posuere metus. Nulla nisi diam, fermentum at ligula in, gravida tempus arcu. Morbi blandit sagittis risus vitae pretium. Morbi eget metus et erat maximus consequat. Sed eget ante in neque pharetra feugiat. In aliquam mauris nec euismod rhoncus. Aenean elementum vel risus ac tempor.</p>
+    </section>
+  <section id="three">
+    <h2 id="bheader">This Section Contains a Button</h2>
+    <button id="mybutton">Click Me!</button>
+  </section>
+  <footer>
+    <p>Thank you for visiting my site!</p>
+    </footer>
+
+
+    <script>
+      document.getElementById("mybutton").addEventListener("click", buttonClicked);
+      document.getElementById("two").addEventListener("click", function(){alert("section two clicked!")});
+      function buttonClicked(){
+        alert("button clicked!");
+        document.getElementById("bheader").innerHTML = "You pushed the button!";
+        document.getElementById("bheader").style.color = "red";
+        document.getElementById("heroimg").setAttribute("src", "hero2.jpg");
+        document.getElementById("heroimg").classList.remove("img1");
+        document.getElementById("heroimg").classList.add("img2");
+      }
+    </script>
+</body>
+
+</html>
