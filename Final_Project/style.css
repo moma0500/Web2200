@@ -1,0 +1,139 @@
+canvas {
+  display: block;
+}
+
+/* FIRST BAR - logo and nav*/
+#logo_nav {
+  display: flex;
+  height: 80px;
+  margin-left: 30px;
+  margin-right: 60px;
+  margin-top: 25px;
+}
+
+h3 {
+  font-family: Work Sans;
+  font-weight: lighter;
+}
+
+#logo {
+  /* background-color: red; */
+  flex-grow: .25;
+}
+
+#personal_logo {
+  display: block;
+  width: 250px;
+  margin-left: 10px;
+}
+
+#navigation {
+  /* justify-content: center; */
+  /* flex-wrap: wrap; */
+  /* margin: 30px 0px 30px 0px; */
+  display: inline;
+  padding-top: 25px;
+  padding-left: 110px;
+  /* background-color: orange; */
+  flex-grow: 5;
+  font-family: Work Sans;
+  font-weight: bold;
+  font-size: 25px;
+  text-shadow: 3px 2px #FFCE34;
+  text-decoration: none;
+}
+
+nav a {
+  margin-left: 200px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
+  font-weight: bold;
+  /* font-size: 30px; */
+  text-decoration: underline;
+  text-decoration-color: #FFCE34;
+  text-decoration-style: double;
+  text-shadow: none;
+}
+
+nav .current {
+  font-family: Work Sans;
+  font-weight: bold;
+  font-size: 25px;
+  text-shadow: 3px 2px #FFCE34;
+  text-decoration: none;
+}
+
+/* SECOND BAR - side nav, about me, image */
+#home {
+  display: flex;
+  height: auto;
+  margin-left: 30px;
+  margin-right: 60px;
+  margin-top: 30px;
+  /* box-shadow: 12px 12px 2px 1px rgba(93, 93, 93, .8); */
+}
+
+#works_nav {
+  /* background-color: rgba(250, 255, 255, 0.9); */
+  width: 100px;
+  flex-grow: 1;
+}
+
+.list {
+  margin-left: 20px;
+  font-family: work sans;
+  list-style: none;
+}
+
+#abtme {
+  background-color: rgba(236, 236, 236, .9);
+  width: 150px;
+  flex-grow: 2;
+  position: relative;
+  min-height: 400px;
+}
+
+.abt_me_header {
+  font-size: 60px;
+  margin-top: 150px;
+  margin-left: 200px;
+  font-weight: 800;
+}
+
+.description {
+  position: absolute;
+  bottom: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: Work Sans;
+  font-weight: 400;
+}
+
+#text_overlay {
+  float: right;
+  margin-top: 200px;
+  margin-left: 50px;
+  background: purple;
+}
+
+#profileimg {}
+
+#headshot {
+  flex-grow: 1;
+  width: 500px;
+  height: auto;
+  /* max-width: 50%;
+  width: auto; */
+  float: right;
+}
