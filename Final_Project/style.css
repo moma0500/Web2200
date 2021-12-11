@@ -2,6 +2,10 @@ canvas {
   display: block;
 }
 
+#sketchbutton {
+  background-color: green;
+}
+
 /* FIRST BAR - logo and nav*/
 #logo_nav {
   display: flex;
