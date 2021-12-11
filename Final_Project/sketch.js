@@ -7,7 +7,7 @@ var interval;
 var button;
 var secondscounter = 10;
 
-let amount = 50;
+let amount = 55;
 let points = [];
 let maxDistance = 250;
 let speed = .001;
@@ -49,9 +49,10 @@ function setup() {
   //   ellipse(points[i].x, points[i].y);
   // }
 
-  var sketchbutton = createButton("reset");
+
+  var sketchbutton = createButton("Scramble Background");
   sketchbutton.mousePressed(resetSketch);
-  sketchbutton.id = 'sketchbutton';
+
 
 
   // for (let i = 0; i < secondscounter; i++) {
