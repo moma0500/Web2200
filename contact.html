@@ -1,43 +1,77 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
-
   <title>Contact Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Readex+Pro">
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Big%20Shoulders%20Display">
 
 </head>
 
-<body id="cont">
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="contact.html" class="active">Contact</a>
-  </nav>
-  <section id="contact">
-    <img src="headshot1.jpeg" alt="contact picture" id="contactimg">
-    <div id="contacttext">
-      <div class="contactdivs">
-        <h1>Contact Me</h1>
-        <h2>Visit Me In Person</h2>
-        <h4>1841 19th St</h4>
-        <h4>Boulder, CO 80302</h4>
-      </div>
-      <div class="contactdivs">
-        <h2>Call Me</h2>
-        <h4>817-307-2186</h4>
-      </div>
-      <div class="contactdivs" id="email">
-        <h2>Email Me</h2>
-        <h4>mcclainmartensen157@gmail.com</h4>
-        <h4>moma0500@colorado.edu</h4>
-      </div>
-    </div>
-  </section>
+<body id="index">
 
+  <div id="canvas">
+    <!-- FIRST BAR - logo and nav -->
+    <section id="logo_nav">
+      <div id="logo">
+        <img id="personal_logo" src="assets/personal_logotype.png" alt="personal logo">
+      </div>
+      <div id="navigation">
+        <nav>
+          <a href="index.html">HOME</a>
+          <a href="works.html">WORKS</a>
+          <a class="current" href="contact.html">CONTACT</a>
+        </nav>
+      </div>
+    </section>
+
+
+    <!-- SECOND BAR - side nav, about me, image -->
+    <section id="contact_home">
+      <!-- <svg>
+        <rect width="600" height="75" style="fill:rgb(255,206,68);" />
+      </svg> -->
+
+      <div id="works_nav">
+        <h2>PORTFOLIO</h2>
+        <ul class="list">
+          <li>RTD Geovisualization</li>
+          <li>Bodoni Type Poster</li>
+          <li>Personal Image Investigation</li>
+          <li>Durango Landscape Series</li>
+          <li>Boiling River 2019 Season</li>
+          <li>Boiling River 2018 Season</li>
+          <li>P5.js Visualizations</li>
+          <li>Graphic Design</li>
+          <li>Typographic Design</li>
+        </ul>
+      </div>
+
+      <div id="contact_page">
+        <p class = "contact_header">contact</p>
+        <form>
+          <label>NAME</label><br>
+          <input type="text" id="name"><br>
+          <label >EMAIL</label><br>
+          <input type="text" id="email"><br>
+          <label>MESSAGE</label><br>
+          <input type="text" id="message"><br>
+          <input type="submit" class="submit" value="SUBMIT">
+        </form>
+
+
+      </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.2.0/addons/p5.sound.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="sketch.js"></script>
+    <script src="main.js"></script>
+    <!-- <script src="bg.js"></script> -->
+  </div>
 </body>
+
 
 </html>

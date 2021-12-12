@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Hello Me</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Big%20Shoulders%20Display">
+</head>
+
+<body>
+  <nav>
+    <a href="index.html" class="active">Home</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section id="hero">
+  <h1>Hello Me!</h1>
+  <img alt="hero" src="hero.jpeg">
+  </section>
+
+  <section id="top">
+    <button id="button2">Welcome Alert!</button>
+    <p><b><u>Name:</u></b> Montgomery "McClain" Martensen</p>
+    <p><b><u>Pronouns:</u></b> She/Her/Hers</p>
+
+    <img src="headshot.jpg" alt="McClain's Headshot">
+  </section>
+
+  <section id="under_pic">
+    <h4>The links below feature my projects and <br> notes I've completed in my ATLS 2300 Web Class.</h4>
+  </section>
+
+  <section id="weblinks">
+    <p><a href="Week%201/index.html">Week 1 Lecture</a></p>
+    <p><a href="Week%201%20Lab/index.html">Week 1 Lab</a></p>
+    <p><a href="Week%202/index.html">Week 2 Lecture</a></p>
+    <p><a href="Week%202%20Lab/index.html">Week 2 Lab</a></p>
+    <p><a href="Week%203/index.html">Week 3 Lecture</a></p>
+    <p><a href="Week%204/index.html">Week 4 Lecture</a></p>
+    <p><a href="Week%205/index.html">Week 5 Lecture</a></p>
+    <p><a href="Week%206/index.html">Week 6 Lecture</a></p>
+    <p><a href="Week%207/index.html">Week 7 Lecture</a></p>
+    <p><a href="Week%207%20Lab/index.html">Week 7 Lab</a></p>
+    <p><a href="Week%208/index.html">Week 8 Lecture</a></p>
+    <p><a href="Week%209/index.html">Week 9 Lecture</a></p>
+    <p><a href="Week%209%20Lab/index.html">Midterm Project</a></p>
+    <p><a href="Week%2011/index.html">Week 11 Lecture</a></p>
+    <p><a href="Week%2012/index.html">Week 12 Lecture</a></p>
+    <p><a href="Final_Project/index.html">Final Project</a></p>
+    <p><a href="WEB-Files-main/wk%2011/index.html">Portfolio example</a></p>
+
+
+
+
+  </section>
+
+  <section id="darkmode">
+    <button id="button1">Switch to Dark Mode</button>
+  </section>
+
+
+  <section id="goals">
+    <h2><b>Goals For This Course</b></h2>
+    <p>1. Have a good comprehension of HTML and CSS</p>
+    <p>2. Be able to apply coding concepts learned in this class to other classes and jobs.</p>
+    <p>3. Don't get overwhelmed, try hard & have fun.</p>
+  </section>
+
+  <section id="abtme">
+    <h2><b>About Me</b></h2>
+    <p>- From Dallas, Texas -</p>
+    <p>- GIS Analyst & Map Designer for National Geographic -</p>
+    <p>- I like to build and fly drones -</p>
+    <p>- I have 2 cats: Carly Sagan and Jason -</p>
+    <p>- I love to ski and be outdoors-</p>
+    <p>- My favorite movie is Contact -</p>
+  </section>
+
+  <section id="pattern_lib">
+    <h2><b>My Site Pattern Library</b></h2>
+  </section>
+
+  <section id="headers">
+    <p id="header1"><b>Header 1</b></p>
+    <p id="header2"><b>Header 2</b></p>
+    <p id="header3"><b>Header 3</b></p>
+    <p id="header4"><b>Header 4</b></p>
+    <p id="header5"><b>Header 5</b></p>
+    <p id="header6"><b>Header 6</b></p>
+
+    <hr id="line1">
+    <hr id="line2">
+    <hr id="line3">
+
+    <img id="palette" src="color_palette.png" alt="site color palette">
+
+
+  </section>
+
+  <script>
+
+    document.getElementById("button2").addEventListener("click", function(){
+      alert("Welcome to my site! Here you'll find my work from ATLS 2200 Web class.")
+    });
+
+    document.getElementById("button1").addEventListener("click", darkMode);
+
+    function darkMode() {
+      alert("You've switched to dark mode!");
+      document.getElementById("top").style.color = "ivory";
+      document.getElementById("under_pic").style.color = "ivory";
+      // document.getElementById("weblinks").style.backgroundColor = "ivory";
+      document.getElementById("goals").style.borderColor = "#9ea3b0";
+      document.getElementById("goals").style.color = "ivory";
+      document.getElementById("abtme").style.borderColor = "#9ea3b0";
+      document.getElementById("abtme").style.color = "ivory";
+      document.getElementById("headers").style.color = "ivory";
+      document.getElementById("palette").style.borderColor = "#9ea3b0";
+      document.getElementById("pattern_lib").style.color = "#9ea3b0";
+      document.getElementById("line1").style.color = "#9ea3b0";
+      document.getElementById("line2").style.color = "#9ea3b0";
+      document.getElementById("line3").style.color = "#9ea3b0";
+
+      document.body.style.backgroundColor = "#0d1f2d";
+
+    }
+  </script>
+
+</body>
+
+
+
+</html>

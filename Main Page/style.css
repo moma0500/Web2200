@@ -1,0 +1,349 @@
+@media screen and (min-width: 800px){
+
+  #contactimg{
+    display: block;
+    width: 40%;
+  }
+
+  #contacttext{
+    display:flex;
+    flex-direction:column;
+    text-align: center;
+    align-items: center;
+    color: #546A7B;
+    font-family: "Big Shoulders Display";
+    margin-top: 50px;
+    margin-right: 70px;
+  }
+
+  #hero h1{
+    color: #546A7B;
+    font-family: "Big Shoulders Display";
+    z-index:1;
+    position: absolute;
+    margin-top:150px;
+    margin-left: 60px;
+    font-weight: 600px;
+    font-size: 200px
+
+  }
+
+  #hero img{
+    width: 100%;
+    height:500px;
+    object-fit: cover;
+  }
+
+  #button1{
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+    background-color: ivory;
+    color: #546A7B;
+    border-color: #546A7B;
+    font-family: "Big Shoulders Display";
+    font-size: 20px;
+    padding: 7px 260px;
+
+  }
+
+
+  #button2{
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+    background-color: ivory;
+    color: #546A7B;
+    border-color: #546A7B;
+    font-family: "Big Shoulders Display";
+    font-size: 20px;
+    padding: 7px 260px;
+
+  }
+}
+@media screen and (max-width: 801px){
+
+#contactimg{
+  display:none;
+}
+
+#contacttext{
+  display:flex;
+  flex-direction:column;
+  text-align: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 250px;
+  color: #546A7B;
+  font-family: "Big Shoulders Display";
+}
+
+#hero h1{
+  color: #404040;
+  font-family: "Big Shoulders Display";
+  z-index:1;
+  position: absolute;
+  margin-top:100px;
+  margin-left: 40px;
+  margin-right: 100px;
+  font-weight: 600;
+  font-size: 100px;
+  }
+
+  #hero img{
+    width: 100%;
+    height:300px;
+    object-fit: cover;
+  }
+
+  #button1{
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+    background-color: ivory;
+    color: #546A7B;
+    border-color: #546A7B;
+    font-family: "Big Shoulders Display";
+    font-size: 20px;
+    padding: 7px 120px;
+
+  }
+
+  #button2{
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+    color: #546A7B;
+    border-top-color: #546A7B;
+    border-bottom-color: #546A7B;
+    background-color: ivory;
+    font-family: "Big Shoulders Display";
+    font-size: 20px;
+    padding: 7px 120px;
+
+  }
+}
+
+nav{
+  display:flex;
+  width: 50vw;
+  justify-content: right;
+  flex-wrap: wrap;
+  margin: 30px auto 30px calc(100% - 52vw);
+  font-family: "Big Shoulders Display";
+
+}
+
+nav a{
+  font-family: "Big Shoulders Display";
+  font-size: 20px;
+  font-weight: 300;
+  margin-left: 50px;
+  text-decoration: none;
+  color: #1f1b1b;
+}
+
+#top h1 {
+  text-align: center;
+  font-size: 15vw;
+  color: #546A7B;
+  font-family: "Big Shoulders Display";
+  font-weight: 800;
+  margin-bottom: 0px;
+  margin-top: 4px;
+}
+
+#solid {
+  border: solid #FAE1DF 4px;
+}
+
+body {
+  background-color: ivory;
+}
+
+
+#top p {
+  text-align: center;
+  color: #546A7B;
+  font-family: "Big Shoulders Display";
+}
+
+#top img {
+  width: 40vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px #FAE1DF;
+  border-style: double;
+  padding: 10px;
+}
+
+#under_pic {
+  text-align: center;
+  font-size: 17px;
+  color: #546A7B;
+  font-family: "Big Shoulders Display";
+  padding-top: -5px;
+  padding-bottom: -5px;
+}
+
+#weblinks {
+  text-align: center;
+  color: #FAE1DF;
+  font-family: "Big Shoulders Display";
+  padding: -1px;
+}
+
+#goals {
+  color: #546A7B;
+  font-family: "Big Shoulders Display";
+  text-align: center;
+  padding: 20px;
+  margin-right: 300px;
+  margin-top: 20px;
+  margin-left: -20px;
+  margin-bottom: 20px;
+  border: solid #FAE1DF 10px
+}
+
+
+
+#abtme {
+  color: #546A7B;
+  font-family: "Big Shoulders Display";
+  text-align: center;
+  padding: 20px;
+  margin-left: 300px;
+  margin-top: 10px;
+  margin-right: -50px;
+  margin-bottom: 30px;
+  border: solid #FAE1DF 10px
+}
+
+
+#pattern_lib {
+  color: #546A7B;
+  font-family: "Big Shoulders Display";
+  text-align: center;
+  font-size: 3vw;
+}
+
+#header1 {
+  font-size: 96px;
+  color: #546A7B;
+  margin: auto;
+  font-family: "Big Shoulders Display";
+  text-align: center;
+}
+
+#header2 {
+  font-size: 64px;
+  color: #546A7B;
+  margin: auto;
+  font-family: "Big Shoulders Display";
+  text-align: center;
+}
+
+#header3 {
+  font-size: 48px;
+  color: #546A7B;
+  margin: auto;
+  font-family: "Big Shoulders Display";
+  text-align: center;
+}
+
+#header4 {
+  font-size: 36px;
+  color: #546A7B;
+  margin: auto;
+  font-family: "Big Shoulders Display";
+  text-align: center;
+}
+
+#header5 {
+  font-size: 24px;
+  color: #546A7B;
+  margin: auto;
+  font-family: "Big Shoulders Display";
+  text-align: center;
+}
+
+#header6 {
+  font-size: 18px;
+  color: #546A7B;
+  margin: auto;
+  font-family: "Big Shoulders Display";
+  text-align: center;
+}
+
+#line3 {
+  border: solid #FAE1DF 4px;
+  margin-top: 30px;
+}
+
+#line2 {
+  border: solid #FAE1DF 2px;
+  margin-top: 30px;
+}
+
+#line1 {
+  border-color: #FAE1DF;
+  border-style: double;
+  margin-top: 30px;
+}
+
+#palette {
+  width: 50vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border: 20px #FAE1DF;
+  border-style: double;
+}
+
+a:link {
+  color: #546A7B;
+  background-color: transparent;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+a:hover {
+  color: #FAE1DF;
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+a:visited {
+  color: #546A7B;
+  background-color: purple;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.contactdivs{
+  height:50%;
+}
+
+#contact{
+  display:grid;
+  grid-template-columns: 3fr 2fr;
+  grid-template-rows: 80vh;
+  grid-column-gap: 80px;
+}
+
+#contactimg{
+  grid-column:1;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+body{
+  margin-bottom: 100px;
+}
