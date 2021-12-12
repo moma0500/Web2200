@@ -1,11 +1,10 @@
-console.log('hello');
-
 let pics = 9;
 let pic;
 
 for (i = 0; i < pics; i++) {
   pic = 1 + i;
-  document.getElementById('portfolio').innerHTML += "<div class='pimage'><img src='assets/portfolio/" + pic + ".jpg'" + "class='portfoliopic' id='pic" + pic + "' /></div>";
+  document.getElementById('portfolio').innerHTML += "<div class='pimage'><img src='assets/portfolio/" + pic + ".jpg'" + "class='portfoliopic'" + pic + "' /></div>";
+
 }
 
 let displaydetails = false;
