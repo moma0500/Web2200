@@ -50,7 +50,7 @@ function setup() {
   // }
 
 
-  var sketchbutton = createButton("Scramble Background");
+  var sketchbutton = createButton("SCRAMBLE BACKGROUND");
   sketchbutton.mousePressed(resetSketch);
 
 

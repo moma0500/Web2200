@@ -2,10 +2,6 @@ canvas {
   display: block;
 }
 
-#sketchbutton {
-  background-color: green;
-}
-
 /* FIRST BAR - logo and nav*/
 #logo_nav {
   display: flex;
@@ -88,9 +84,13 @@ nav .current {
 }
 
 #works_nav {
-  /* background-color: rgba(250, 255, 255, 0.9); */
-  /* width: 100px; */
-  flex-grow: 1;
+  font-family: Readex Pro;
+  height: 550px;
+  padding-left: 30px;
+  padding-right: 35px;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: rgb(255, 206, 68);
 }
 
 .list {
@@ -217,14 +217,17 @@ form {
 }
 
 button {
+  position: fixed;
+  margin: 0;
+
+  top: 800px;
   font-size: 20px;
-  margin-left: 100px;
-  s font-family: Readex Pro;
+  left: 170px;
+  font-family: Readex Pro;
   font-weight: 600;
   background-color: rgb(255, 206, 68);
   border: none;
   padding: 10px;
-  text-align: center;
 }
 
 /* WORKS PAGE */
@@ -236,13 +239,13 @@ button {
   margin-top: 40px;
 }
 
-#works_nav {
-  margin-left: 30px;
-  margin-right: 60px;
-  margin-top: 40px;
+.list li {
+  padding-bottom: 10px;
 }
 
+
 #portfolio {
+  margin-left: 100px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   /* another way to enforce the grid */
@@ -266,7 +269,7 @@ button {
 
 #pic5 {
   /* 70% at the right and at the bottom */
-  object-position: 70% 100%;
+
   grid-row-start: 3;
 }
 
@@ -281,6 +284,7 @@ button {
 
 #pic2 {
   grid-area: two;
+  object-position: 70% 5%;
 }
 
 #pic3 {
@@ -295,8 +299,12 @@ button {
   grid-row-start: span 2;
 }
 
+#pic9 {
+  object-position: 50% 50%;
+}
+
 .pimage {
-  background-color: yellow;
+  background-color: rgb(255, 206, 68);
   height: 300px;
   transition: border-radius .5s;
 }
@@ -330,11 +338,36 @@ button {
 #details {
   display: none;
   z-index: 1;
-  width: 500px;
-  height: auto;
+  width: 900px;
+  height: 800px;
   position: fixed;
   background-color: white;
   padding: 50px;
-  top: 100px;
+  top: 10px;
   left: calc(50vw - calc(500px / 2));
+}
+
+#geoviz {
+  width: 800px;
+  margin-left: 50px;
+  border: 9px double black;
+  border-spacing: 10px;
+}
+
+#details_header {
+  margin-top: -30px;
+  font-family: Readex Pro;
+  text-align: center;
+  font-size: 38px;
+}
+
+#link {
+  font-family: Readex Pro;
+  text-align: center;
+  font-size: 25px;
+}
+
+.info{
+  font-family: Readex Pro;
+  font-size: 13px;
 }
